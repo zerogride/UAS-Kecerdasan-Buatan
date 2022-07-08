@@ -7,8 +7,8 @@ def up(x, xmin, xmax):
 
 
 class SuhuBadan():
-    tinggi: 40
-    rendah: 30
+    tinggi = 40
+    rendah = 30
 
     def Rendah(self, x):
         if x >= self.tinggi:
@@ -28,11 +28,11 @@ class SuhuBadan():
 
 
 class Suhu():
-    sangatpanas: 40
-    panas: 36
-    normal: 30
-    sejuk: 24
-    dingin: 16
+    sangatpanas = 40
+    panas = 36
+    normal = 30
+    sejuk = 24
+    dingin = 16
 
     def Dingin(self, x):
         if x >= self.sejuk:
