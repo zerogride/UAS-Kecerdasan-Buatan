@@ -107,8 +107,6 @@ class Kondisi():
 
     def _inferensi(self, s=Suhu(), sb=SuhuBadan()):
         Hasil = []
-    # [R1] JIKA Tinggi Badan SANGAT PENDEK, dan Berat Badan BERAT, MAKA
-    # Postur Badan Harusnya Lebih KECIL.
         a1 = min(s.Dingin(self.suhu1), sb.Tinggi(self.suhu2))
         z1 = self._minus(a1)
         Hasil.append((a1, z1))
